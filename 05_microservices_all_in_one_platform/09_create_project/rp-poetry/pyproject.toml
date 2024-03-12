@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "realpoetry"
+version = "0.1.0"
+description = ""
+authors = ["Usama Qazi <usamyharis@yahoo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+beautifulsoup4 = "^4.12.3"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.2.0"
+flake8 = "^7.0.0"
+isort = "^5.13.2"
+mypy = "^1.9.0"
+pylint = "^3.1.0"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.1.1"
+faker = "^24.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
